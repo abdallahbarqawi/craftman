@@ -1,1 +1,3 @@
 # craftman
+
+The Craftsman is a mobile software that enables individuals to search for and find the suitable service providers. These services can be in any of the following categories from carpentry to blacksmithing, mobile car mechanics, teaching and a lot more. It also allows the service provider (i.e., craftsman) to promote his services by creating a craftsman man profile then uploading his resume and work. This way the Client can create a profile and go through our list of services and craftsmen available then when they find what they are looking for they can proceed to schedule their service appointment online. It’s a win-win situation. This way jobs are distributed fairly among craftsmen and it provides them with a platform where they can reach more costumers. 
