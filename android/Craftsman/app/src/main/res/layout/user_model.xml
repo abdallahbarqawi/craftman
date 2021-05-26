@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="5dp"
+    app:cardElevation="3dp"
+    app:cardBackgroundColor="@color/white_blue"
+    app:cardUseCompatPadding="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp">
+        <ImageView
+            android:id="@+id/modelImage"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:gravity="center"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/user" />
+        <TextView
+            android:id="@+id/modelUserName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="UserName"
+            android:paddingTop="20px"
+            android:paddingBottom="20px"
+            android:textStyle="bold"
+            android:textSize="25dp"
+            android:gravity="center"
+            android:layout_marginStart="25dp"
+            android:textColor="@color/black"
+            />
+        <TextView
+            android:id="@+id/modelUserId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="UserId"
+            android:paddingTop="20px"
+            android:paddingBottom="20px"
+            android:textStyle="bold"
+            android:textSize="25dp"
+            android:gravity="center"
+            android:layout_marginStart="25dp"
+            android:textColor="@color/black"
+            />
+
+        <TextView
+            android:id="@+id/modelUserEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Email"
+            android:paddingTop="20px"
+            android:paddingBottom="20px"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:layout_below="@+id/modelUserName"
+            android:layout_marginStart="25dp"
+            android:textColor="@color/black"
+            />
+        <TextView
+            android:id="@+id/modelUserPhone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Phone"
+            android:paddingTop="20px"
+            android:paddingBottom="20px"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:layout_below="@+id/modelUserEmail"
+            android:layout_marginStart="25dp"
+            android:textColor="@color/black"
+            />
+        <TextView
+            android:id="@+id/modelUserAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Address"
+            android:paddingTop="20px"
+            android:paddingBottom="20px"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:layout_below="@+id/modelUserPhone"
+            android:layout_marginStart="25dp"
+            android:textColor="@color/black"
+            />
+        <TextView
+            android:id="@+id/modelUserState"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="UserState"
+            android:paddingTop="20px"
+            android:paddingBottom="20px"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:layout_below="@+id/modelUserAddress"
+            android:layout_marginStart="25dp"
+            android:textColor="@color/black"
+            />
+
+
+
+
+
+
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

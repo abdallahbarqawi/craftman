@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name"></string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+
+
+    <string-array name="spinner_city">
+        <item>Select City</item>
+        <item>Ajloun</item>
+        <item>Jerash</item>
+        <item>Mafraq</item>
+        <item>Balqa</item>
+        <item>Amman</item>
+        <item>Zarqa</item>
+        <item>Madaba</item>
+        <item>Karak</item>
+        <item>Tafilah</item>
+        <item>Maan</item>
+        <item>Aqaba</item>
+        <item>Irbid</item>
+    </string-array>
+
+
+    <string-array name="spinner_category">
+        <item>Select Category</item>
+        <item>Painting services</item>
+        <item>Electrician services</item>
+        <item>Construction</item>
+        <item>Agricultural services</item>
+        <item>plumbing services</item>
+        <item>Carpentry services</item>
+        <item>Gardening services</item>
+        <item>Car maintenance</item>
+        <item>Cleaning services</item>
+        <item>Other services</item>
+    </string-array>
+</resources>

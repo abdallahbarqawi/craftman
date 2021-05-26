@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="5dp"
+    app:cardElevation="3dp"
+    app:cardBackgroundColor="@color/white_blue"
+    app:cardUseCompatPadding="true"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp">
+        <ImageView
+            android:id="@+id/modelImageW"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:gravity="center"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/six" />
+        <ImageView
+            android:id="@+id/modelImageCertificate"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:gravity="center"
+            android:layout_marginTop="20dp"
+            android:layout_below="@id/modelImageW"
+            android:src="@drawable/six" />
+        <TextView
+            android:id="@+id/modelIdtv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Work Id"
+            android:layout_marginStart="25dp"
+            android:padding="10dp"
+            android:background="@drawable/login_button"
+            android:gravity="center"
+            android:layout_below="@id/modelImageCertificate"
+            android:textColor="@color/black"
+        />
+        <TextView
+            android:id="@+id/modelDescriptiontv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Work Description"
+            android:layout_marginStart="25dp"
+            android:padding="10dp"
+            android:background="@drawable/login_button"
+            android:gravity="center"
+            android:layout_below="@id/modelIdtv"
+            android:textColor="@color/black"
+            />
+
+
+        <TextView
+            android:id="@+id/modelTitletv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Work Title"
+            android:paddingTop="20px"
+            android:paddingBottom="20px"
+            android:textStyle="bold"
+            android:textSize="25dp"
+            android:layout_marginStart="25dp"
+            android:gravity="center"
+            android:textColor="@color/black"
+            />
+
+        <LinearLayout
+            android:id="@+id/layoutOne"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/modelTitletv"
+            android:layout_toRightOf="@+id/modelImageW">
+            <TextView
+                android:id="@+id/modelCategory"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Category"
+                android:layout_marginStart="25dp"
+                android:padding="10dp"
+                android:background="@drawable/login_button"
+                android:gravity="center"
+                android:textColor="@color/black"
+                />
+            <TextView
+                android:id="@+id/modelAddTv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="address"
+                android:padding="10dp"
+                android:background="@drawable/login_button"
+                android:layout_marginStart="25dp"
+                android:gravity="center"
+                android:layout_below="@+id/modelCategory"
+                android:textColor="@color/black"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/layoutTwo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/layoutOne"
+            android:layout_toRightOf="@+id/modelImageW">
+            <TextView
+                android:id="@+id/modelCall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Call"
+                android:layout_marginStart="25dp"
+                android:padding="10dp"
+                android:drawableLeft="@drawable/ic_phone"
+                android:background="@drawable/call_button"
+                android:gravity="center"
+                android:textColor="@color/black"
+                />
+            <TextView
+                android:id="@+id/modelPrice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Price"
+                android:padding="10dp"
+                android:layout_marginLeft="30dp"
+                android:background="@drawable/call_button"
+                android:layout_marginStart="25dp"
+                android:gravity="center"
+                android:layout_below="@+id/modelCategory"
+                android:textColor="@color/black"
+                />
+        </LinearLayout>
+
+
+
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>
